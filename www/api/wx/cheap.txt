@@ -1,0 +1,17 @@
+[
+      {
+        "thumb":"/image/th1.png",
+        "name":"无辣不欢冰火单人餐",
+        "price":"19.9"
+      },
+      {
+        "thumb":"/image/th2.png",
+        "name":"无辣不欢冰火双人餐",
+        "price":"29.9"
+      },
+      {
+        "thumb":"/image/th3.png",
+        "name":"无辣不欢冰火三人餐",
+        "price":"39.9"
+      }
+]

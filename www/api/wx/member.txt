@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "JerryLee",
+      "phone": 15279106115,
+      "sex": "男",
+      "login": false,
+      "constellation": "处女座",
+      "region": "江西",
+      "totalintegral": 100,
+      "availableintegral": 5
+    }
+  ],
+  "image": [
+    {
+      "url": "/images/1coupon_one.png",
+      "integral": 10,
+      "description": "以优惠价格9元购买菠萝派(1个)+香芋派(1个)",
+      "prompt": "确定使用10积分兑换菠萝派(1个)+香芋派(1个)吗？"
+    },
+    {
+      "url": "/images/1coupon_two.png",
+      "integral": 10,
+      "description": "以优惠价格12元购买菠萝派(1个)+麦旋风™奥利奥口味(1个)",
+      "prompt": "确定使用10积分兑换菠萝派(1个)+麦旋风™奥利奥口味(1个)吗？"
+    },
+    {
+      "url": "/images/1coupon_three.png",
+      "integral": 10,
+      "description": "以优惠价格11元购买菠萝派(1个)+薯条(中)(1份)",
+      "prompt": "确定使用10积分兑换菠萝派(1个)+薯条中(中)(1个)吗？"
+    }
+  ],
+  "notice": [
+    {
+      "url": "/images/new_notice.png",
+      "description": "这是我的开心乐园，还要免费玩具哦"
+    },
+    {
+      "url": "/images/new_notice.png",
+      "description": "哇，麦当劳的品牌大使，更是孩子们的开心姐姐！"
+    },
+    {
+      "url": "/images/new_notice.png",
+      "description": "等等交给我们，陪伴留给孩子-全新麦当劳送餐到桌服务"
+    }
+  ]
+}
