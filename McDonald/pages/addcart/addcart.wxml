@@ -1,0 +1,21 @@
+<!--pages/addcart/addcart.wxml-->
+<view class="main">
+  <view class="orders-box">
+    <view class="orders-list">
+      <image class="orders-thumb" src="{{image}}"></image>
+      <view class="orders-pro-name">{{title}}</view>
+      <view class="orders-pro-price">￥{{price}}</view>
+    </view>
+  </view>
+  <view class="orders-footer">
+    <form bindsubmit="formSubmit">
+      <view hidden="true">
+          <input id="image" name="image"  type="text" value="{{image}}" />
+          <input id="title" name="title"  type="text" value="{{title}}" />
+          <input id="price" name="price"  type="text" value="{{price}}" />
+      </view>
+      <button style="background-color:#ff9900"   formType="submit" >添加购物车 </button>        
+    </form>
+    <view class="orders-footer-btn" bindtap="toPay">去付款</view>
+  </view>
+</view>

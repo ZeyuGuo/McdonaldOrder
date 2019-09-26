@@ -1,0 +1,21 @@
+<!--pages/cheap/cheap.wxml-->
+<!--pages/newest/newest.wxml-->
+<view class="newest">
+    <view class="newest-title">
+      <text>限时特惠</text>
+    </view>
+    <view class="newest-box">
+      <view class="newest-list" wx:for="{{ths}}" wx:key="index">
+        <navigator url="../addcart/addcart?thumb={{item.thumb}}&name={{item.name}}&price={{item.price}}">
+          <image src="{{item.thumb}}"></image>
+          <view class="newest-text">
+            <text>{{item.name}}</text>
+          </view>
+          <view class="newest">
+            <text>￥{{item.price}}</text>
+          </view>
+        </navigator>
+      </view>
+      
+    </view>
+  </view>

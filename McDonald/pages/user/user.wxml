@@ -1,0 +1,31 @@
+<!--pages/user/user.wxml-->
+<view class="main">
+    <view class="header">
+        <open-data type="userAvatarUrl" class="thumb"></open-data>
+        <open-data type="userNickName" lang="zh_CN" class="nickname"></open-data> 
+        
+        <navigator class="about" url="../aboutus/aboutus">关于我们</navigator>
+    </view>
+    <view class="address-box">
+        <view class="address-manage">
+            <navigator url="../address/address">地址管理</navigator>
+        </view>
+        <view wx:if="{{hasAddress}}" class="address-list">
+            <view>{{address.name}}</view>
+            <view>{{address.phone}}</view>
+            <view>{{address.detail}}</view>
+        </view>
+    </view>
+    <view class="address-box">
+        <view class="address-manage">
+            <navigator url="../myorder/myorder">我的订单</navigator>
+        </view>
+        
+    </view>
+    <view class="address-box">
+        <view class="address-manage">
+            <navigator url="../qrcode/qrcode">我的积分</navigator>
+        </view>
+        
+    </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/aboutus/aboutus.wxml-->
+<text>本项目为模仿麦当劳点餐小程序</text>
+<view>小组成员有：</view>
+<view>组长：郭泽宇</view>
+<view>组员：陈杰、陈松涛、廖艺涵、许甜欣、苗欣蕾、李蕴仪、廖露</view>
+<view> </view>
+
+<footer>©版权所有，侵权必究</footer>
